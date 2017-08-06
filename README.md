@@ -5,8 +5,9 @@
 This repo implements the embedding models in the 2017 ICML 
 [paper](http://proceedings.mlr.press/v70/liu17a/liu17a.pdf) "Zero-Inflated Exponential Family Embeddings" 
 
-Zero-Inflated Exponential Family Embedding (ZIE) model uses zero-inflated distributions to fit the conditional probability 
-in the embedding model. As a result, ZIE model automatically downweights zeros in the data. Please see the details in the 
+Zero-Inflated Exponential Family Embedding (ZIE) model is designed to learn embedding vectors of items on sparse data. 
+It uses zero-inflated distributions as the conditional in the embedding model. Fitting a ZIE naturally 
+downweights the zeros and dampens their influence on the model. Please see the details in the 
 [paper](http://proceedings.mlr.press/v70/liu17a/liu17a.pdf). 
 
 ## Running the code
