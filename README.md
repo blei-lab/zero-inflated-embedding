@@ -2,12 +2,12 @@
 
 ## Introduction
 
-This repo implements the embedding models in the 2017 ICML paper "Zero-Inflated Exponential Family Embeddings" 
-\[[paper link](http://proceedings.mlr.press/v70/liu17a/liu17a.pdf)\]
+This repo implements the embedding models in the 2017 ICML 
+[paper](http://proceedings.mlr.press/v70/liu17a/liu17a.pdf) "Zero-Inflated Exponential Family Embeddings" 
 
 Zero-Inflated Exponential Family Embedding (ZIE) model uses zero-inflated distributions to fit the conditional probability 
-in the embedding model. As a result, ZIE model automatically downweights zeros in the data. Please see the details in the paper. 
-
+in the embedding model. As a result, ZIE model automatically downweights zeros in the data. Please see the details in the 
+[paper](http://proceedings.mlr.press/v70/liu17a/liu17a.pdf). 
 
 ## Running the code
 
@@ -15,7 +15,6 @@ in the embedding model. As a result, ZIE model automatically downweights zeros i
 
 Note: this repo does not contain any data -- it only use some random data to show how to use the code. The code requires 
 `numpy`, `scipy`, and `tensorflow`.
-
 
 ## Misc
 
