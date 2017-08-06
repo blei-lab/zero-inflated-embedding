@@ -22,16 +22,16 @@ If you have any questions, please contact the Li-Ping Liu (liping.liulp at gmail
 
 If you have used the code in your work, please cite: 
 
-@inproceedings{zie17,
-  title =    {Zero-Inflated Exponential Family Embeddings},
-  author =   {Li-Ping Liu and David M. Blei},
-  booktitle ={Proceedings of the 34th International Conference on Machine Learning},
-  pages =    {2140--2148},
-  year =     {2017},
-  editor =   {Doina Precup and Yee Whye Teh},
-  volume =   {70},
-  series =   {Proceedings of Machine Learning Research},
-  address =  {International Convention Centre, Sydney, Australia},
-  month =    {06--11 Aug},
-  publisher ={PMLR},
-}
+@inproceedings{zie17,  
+  title =    {Zero-Inflated Exponential Family Embeddings},  
+  author =   {Li-Ping Liu and David M. Blei},  
+  booktitle ={Proceedings of the 34th International Conference on Machine Learning},  
+  pages =    {2140--2148},   
+  year =     {2017},  
+  editor =   {Doina Precup and Yee Whye Teh},  
+  volume =   {70},  
+  series =   {Proceedings of Machine Learning Research},  
+  address =  {International Convention Centre, Sydney, Australia},   
+  month =    {06--11 Aug},  
+  publisher ={PMLR}  
+}  
