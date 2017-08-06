@@ -16,7 +16,7 @@ in the embedding model. As a result, ZIE model automatically downweights zeros i
 Note: this repo does not contain any data -- it only use some random data to show how to use the code. The code requires 
 `numpy`, `scipy`, and `tensorflow`.
 
-## Misc
+## Contact and cite 
 
 If you have any questions, please contact the Li-Ping Liu (liping.liulp at gmail).
 
