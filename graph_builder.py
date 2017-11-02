@@ -136,7 +136,7 @@ class GraphBuilder:
         alpha_sum = tf.reduce_sum(alpha_weighted, keep_dims=True, reduction_indices=0)
 
         asum_zero = alpha_sum / nnz 
-        asum_nonz = (alpha_sum - alpha_select) / (nnz - 1) 
+        asum_nonz = (alpha_sum - alpha_weighted) / (nnz - 1) 
     
         llh_zero, sind, _ = self.logprob_zero(asum_zero, config=config, training=training)
         llh_nonz, emb_logp_nz, emb_logp_z, log_mean = self.logprob_nonz(asum_nonz, config=config, training=training)
